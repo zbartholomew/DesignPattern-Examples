@@ -1,4 +1,4 @@
-package com.zbartholomew;
+package com.zbartholomew.example1;
 
 // The interface is implemented by many other
 // subclasses that allow for many types of flying

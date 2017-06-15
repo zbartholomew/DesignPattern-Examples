@@ -1,4 +1,4 @@
-package com.zbartholomew;
+package com.zbartholomew.example1;
 
 /**
  * Created by Zach on 6/15/2017.

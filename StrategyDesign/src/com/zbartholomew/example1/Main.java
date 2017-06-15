@@ -1,4 +1,4 @@
-package com.zbartholomew;
+package com.zbartholomew.example1;
 
 public class Main {
 
