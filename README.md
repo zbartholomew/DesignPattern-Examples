@@ -19,3 +19,15 @@
     - Subject is an object having methods to attach and detach observers to a client object. We have created an abstract class Observer         and a concrete class Subject that is extending class Observer
   
   ![500px-observer svg](https://user-images.githubusercontent.com/16873263/27246405-3513b0c0-52a6-11e7-8bbc-15450aca9287.png)
+  
+  ## Factory Design Pattern
+  - "Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class
+       defer instantiation it uses to subclasses." (Gang Of Four)
+  - Creating an object often requires complex processes not appropriate to include within a composing object. 
+    The object's creation may lead to a significant duplication of code, may require information not accessible to the composing object,
+    may not provide a sufficient level of abstraction, or may otherwise not be part of the composing object's concerns. 
+    The factory method design pattern handles these problems by defining a separate method for creating the objects, 
+    which subclasses can then override to specify the derived type of product that will be created.
+  - The factory method pattern relies on inheritance, as object creation is delegated to subclasses that implement the factory method to       create objects.
+  
+  ![factory_design_uml](https://user-images.githubusercontent.com/16873263/27257626-1e3029b4-5392-11e7-97ea-b4e1065e17a1.gif)
