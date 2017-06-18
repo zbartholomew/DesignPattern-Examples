@@ -30,4 +30,4 @@
     which subclasses can then override to specify the derived type of product that will be created.
   - The factory method pattern relies on inheritance, as object creation is delegated to subclasses that implement the factory method to       create objects.
   
-  ![factory_design_uml](https://user-images.githubusercontent.com/16873263/27257626-1e3029b4-5392-11e7-97ea-b4e1065e17a1.gif)
+    ![factory_design_uml](https://user-images.githubusercontent.com/16873263/27257626-1e3029b4-5392-11e7-97ea-b4e1065e17a1.gif)
