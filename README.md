@@ -94,4 +94,25 @@
     parts to build the objects.
     
     ![builder_uml](https://user-images.githubusercontent.com/16873263/27315779-77c28716-5530-11e7-9f53-6b853bf53f53.png)
+    
+## Prototype Design Pattern
+  - Used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. This
+    pattern is used to:
+    - avoid subclasses of an object creator in the client application, like the abstract factory pattern does.
+    - avoid the inherent cost of creating a new object in the standard way (e.g., using the 'new' keyword) when it is prohibitively
+      expensive for a given application.
+  - To implement the pattern, declare an abstract base class that specifies a pure virtual clone() method. Any class that needs a
+    "polymorphic constructor" capability derives itself from the abstract base class, and implements the clone() operation.
+  - Sometimes creational patterns overlap — there are cases when either prototype or abstract factory would be appropriate. At other
+    times they complement each other: abstract factory might store a set of prototypes from which to clone and return product objects
+    (GoF, p126). Abstract factory, builder, and prototype can use singleton in their implementations. (GoF, p81, 134). Abstract factory
+    classes are often implemented with factory methods (creation through inheritance), but they can be implemented using prototype
+    (creation through delegation). (GoF, p95)
+  - Often, designs start out using Factory Method (less complicated, more customizable, subclasses proliferate) and evolve toward
+    abstract factory, prototype, or builder (more flexible, more complex) as the designer discovers where more flexibility is needed.
+    (GoF, p136)
+  - Prototype does not require subclassing, but it does require an "initialize" operation. Factory method requires subclassing, but does
+    not require initialization. (GoF, p116)
+    
+    ![prototype_uml](https://user-images.githubusercontent.com/16873263/27359166-203926c2-55cf-11e7-8853-9f06d6b7bcd5.png)
   
