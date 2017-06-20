@@ -68,4 +68,30 @@
       - They permit lazy allocation and initialization, whereas global variables in many languages will always consume resources.
       
     ![singleton_pattern_uml_diagram](https://user-images.githubusercontent.com/16873263/27315072-59611322-552c-11e7-897d-d9d5f5a96fe2.jpg)
+    
+## Builder Design Pattern
+  - The intent of the Builder design pattern is to separate the construction of a complex object from its representation. By doing so
+    the same construction process can create different representations.
+  - The builder pattern is an object creation software design pattern.
+  - Unlike the abstract factory pattern and the factory method pattern whose intention is to enable polymorphism, the intention of the
+    builder pattern is to find a solution to the telescoping constructor anti-pattern
+  - Builder often builds a Composite. 
+  - Often, designs start out using Factory Method (less complicated, more customizable, subclasses
+    proliferate) and evolve toward Abstract Factory, Prototype, or Builder (more flexible, more complex) as the designer discovers where
+    more flexibility is needed.
+  - Advantages:
+    - Allows you to vary a product’s internal representation.
+    - Encapsulates code for construction and representation.
+    - Provides control over steps of construction process.
+  - Disadvantages:
+    - Requires creating a separate ConcreteBuilder for each different type of Product.
+    - Requires the builder classes to be mutable.
+  - The builder pattern has another benefit. It can be used for objects that contain flat data (html code, SQL query, X.509
+    certificate...), that is to say, data that can't be easily edited. This type of data can't be edited step by step and must be edited
+    at once.
+  - Builder: Abstract interface for creating objects (product).
+  - ConcreteBuilder: Provides implementation for Builder. It is an object able to construct other objects. Constructs and assembles
+    parts to build the objects.
+    
+    ![builder_uml](https://user-images.githubusercontent.com/16873263/27315779-77c28716-5530-11e7-9f53-6b853bf53f53.png)
   
