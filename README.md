@@ -48,3 +48,24 @@
         
     ![abstractfactory_uml svg](https://user-images.githubusercontent.com/16873263/27268321-c3e34892-5463-11e7-9d50-860d86478247.png)
     
+## Singleton Pattern
+  - Singleton pattern restricts the instantiation of a class and ensures that only one instance of the class exists in the java virtual
+    machine.
+  - The singleton class must provide a global access point to get the instance of the class.
+  - Singleton pattern is used for logging, drivers objects, caching and thread pool.
+  - To implement Singleton pattern, we have different approaches but all of them have following common concepts.
+    - Private constructor to restrict instantiation of the class from other classes.
+    - Private static variable of the same class that is the only instance of the class.
+    - Public static method that returns the instance of the class, this is the global access point for outer world to get the instance
+      of the singleton class.
+    - Allow multiple instances in the future without affecting a singleton class's clients.
+  - The abstract factory, builder, and prototype patterns can use Singletons in their implementation.
+  - Facade objects are often singletons because only one Facade object is required.
+  - State objects are often singletons.
+  - Singletons are often preferred to global variables because:
+      - They do not pollute the global namespace (or, in languages with namespaces, their containing namespace) with unnecessary
+        variables.
+      - They permit lazy allocation and initialization, whereas global variables in many languages will always consume resources.
+      
+    ![singleton_pattern_uml_diagram](https://user-images.githubusercontent.com/16873263/27315072-59611322-552c-11e7-897d-d9d5f5a96fe2.jpg)
+  
