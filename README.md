@@ -115,4 +115,28 @@
     not require initialization. (GoF, p116)
     
     ![prototype_uml](https://user-images.githubusercontent.com/16873263/27359166-203926c2-55cf-11e7-8853-9f06d6b7bcd5.png)
-  
+    
+## Decorator Design Pattern
+  - The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows
+    behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from
+    the same class.
+  - The decorator pattern can be used to extend (decorate) the functionality of a certain object statically, or in some cases at run
+    time, independently of other instances of the same class, provided some groundwork is done at design time.
+  - This is achieved by designing a new Decorator class that wraps the original class. This wrapping could be achieved by the following
+    sequence of steps:
+     - Subclass the original Component class into a Decorator class (see UML diagram);
+     - In the Decorator class, add a Component pointer as a field;
+     - In the Decorator class, pass a Component to the Decorator constructor to initialize the Component pointer;
+     - In the Decorator class, forward all Component methods to the Component pointer; and
+     - In the ConcreteDecorator class, override any Component method(s) whose behavior needs to be modified.
+   - A decorator makes it possible to add or alter behavior of an interface at run-time.
+   - Alternatively, the adapter can be used when the wrapper must respect a particular interface and must support polymorphic behavior,
+    and the Facade when an easier or simpler interface to an underlying object is desired. 
+
+Pattern	   | Intent
+---------- | -------
+Adapter	   | Converts one interface to another so that it matches what the client is expecting
+Decorator  | Dynamically adds responsibility to the interface by wrapping the original code
+Facade     | Provides a simplified interface    
+
+  ![decorator_uml](https://user-images.githubusercontent.com/16873263/27416572-1aef59a8-56c3-11e7-900a-198a3c115035.png)
