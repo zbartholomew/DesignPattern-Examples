@@ -163,3 +163,32 @@ Facade     | Provides a simplified interface
     bookkeeping or modes.    
   
   ![command_uml](https://user-images.githubusercontent.com/16873263/27465150-762b6a14-5786-11e7-915c-f4c9191d335a.png)
+  
+## Adapter Design Pattern
+  - An adapter allows two incompatible interfaces to work together. This is the real world definition for an adapter. Interfaces may be
+    incompatible, but the inner functionality should suit the need. The Adapter design pattern allows otherwise incompatible classes to
+    work together by converting the interface of one class into an interface expected by the clients.
+  - Also known as Wrapper, an alternative naming shared with the Decorator pattern
+    - Allows the interface of an existing class to be used as another interface
+  - An example is an adapter that converts the interface of a Document Object Model of an XML document into a tree structure that can be
+    displayed.
+  - An adapter can be used when the wrapper must respect a particular interface and must support polymorphic behavior. Alternatively, a
+    decorator makes it possible to add or alter behavior of an interface at run-time, and a Facade is used when an easier or simpler
+    interface to an underlying object is desired.
+    
+  - Object Adapter pattern
+    - In this adapter pattern, the adapter contains an instance of the class it wraps. In this situation, the adapter makes calls to the
+    instance of the wrapped object.
+    
+    ![objectadapter_uml](https://user-images.githubusercontent.com/16873263/27505725-7a7f4c40-585b-11e7-80ff-a851fc6184d4.png)
+    
+  - Class Adapter Pattern
+    - This adapter pattern uses multiple polymorphic interfaces implementing or inheriting both the interface that is expected and the
+      interface that is pre-existing. It is typical for the expected interface to be created as a pure interface class, especially in
+      languages such as Java (before jdk 1.8) that do not support multiple inheritance of classes.
+      
+      ![classadapter_uml](https://user-images.githubusercontent.com/16873263/27505727-7de9e78c-585b-11e7-89f1-e950ad610bd2.png)
+    
+    
+  
+  
