@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b5e2b2-11c9-4e79-b5cd-87e23abadbd3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/DeviceButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/ElectronicDevice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/PlayWithRemote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/Radio.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/TVRemote.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/Television.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/TurnItAllOff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/TurnTVOff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/TurnTVOn.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example1/TurnTVUp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example2/Broker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example2/BuyStock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example2/CommandPatternTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example2/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example2/SellStock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example2/Stock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example3/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example3/CommandFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/example3/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DecoratorDesign/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DecoratorDesign/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,7 +83,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,7 +164,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -496,7 +474,6 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -508,7 +485,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,6 +496,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -535,14 +513,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zbartholomew/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zbartholomew/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/zbartholomew/example1/Television.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -675,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,12 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,12 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,12 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,11 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
