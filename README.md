@@ -188,6 +188,32 @@ Facade     | Provides a simplified interface
       languages such as Java (before jdk 1.8) that do not support multiple inheritance of classes.
       
       ![classadapter_uml](https://user-images.githubusercontent.com/16873263/27505727-7de9e78c-585b-11e7-89f1-e950ad610bd2.png)
+     
+## Facade Design Pattern
+  - A facade is an object that provides a simplified interface to a larger body of code, such as a class library. A facade can:
+    - make a software library easier to use, understand and test, since the facade has convenient methods for common tasks,
+    - make the library more readable, for the same reason,
+    - reduce dependencies of outside code on the inner workings of a library, since most code uses the facade, thus allowing more
+      flexibility in developing the system,
+    - wrap a poorly designed collection of APIs with a single well-designed API.
+  - The Facade design pattern is often used when a system is very complex or difficult to understand because the system has a large
+    number of interdependent classes or its source code is unavailable.
+  - This pattern hides the complexities of the larger system and provides a simpler interface to the client.
+  - It typically involves a single wrapper class that contains a set of members required by client.
+    - These members access the system on behalf of the facade client and hide the implementation details.
+  - A Facade is used when an easier or simpler interface to an underlying object is desired. Alternatively, an adapter can be used
+    when the wrapper must respect a particular interface and must support polymorphic behavior. A decorator makes it possible to add or
+    alter behavior of an interface at run-time.
+  - The facade pattern is typically used when:
+    - a simple interface is required to access a complex system,
+    - a system is very complex or difficult to understand,
+    - an entry point is needed to each level of layered software, or
+    - the abstractions and implementations of a subsystem are tightly coupled.
+    
+  ![facade_design_uml](https://user-images.githubusercontent.com/16873263/27513599-cfad668c-5920-11e7-80f7-2dcf0ffc09de.png)
+  
+  - Facade - The facade class abstracts Packages 1, 2, and 3 from the rest of the application.
+  - Clients - The objects are using the Facade Pattern to access resources from the Packages.
     
     
   
