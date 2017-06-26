@@ -215,6 +215,21 @@ Facade     | Provides a simplified interface
   - Facade - The facade class abstracts Packages 1, 2, and 3 from the rest of the application.
   - Clients - The objects are using the Facade Pattern to access resources from the Packages.
     
+## Bridge Design Pattern
+  - Meant to "decouple an abstraction from its implementation so that the two can vary independently", introduced by the Gang of Four
+    (GoF).
+  - The bridge uses encapsulation, aggregation, and can use inheritance to separate responsibilities into different classes.
+  - The bridge pattern is often confused with the adapter pattern. In fact, the bridge pattern is often implemented using the object
+    adapter pattern
     
-  
-  
+    ![bridge_uml](https://user-images.githubusercontent.com/16873263/27524830-97f67eae-59ed-11e7-9644-8dbdaf15d20a.png)
+    
+  - Abstraction (abstract class)
+    - defines the abstract interface
+    - maintains the Implementor reference.
+  - RefinedAbstraction (normal class)
+    - extends the interface defined by Abstraction
+  - Implementor (interface)
+    - defines the interface for implementation classes
+  - ConcreteImplementor (normal class)
+     - implements the Implementor interface
