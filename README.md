@@ -233,3 +233,18 @@ Facade     | Provides a simplified interface
     - defines the interface for implementation classes
   - ConcreteImplementor (normal class)
      - implements the Implementor interface
+     
+## Template Design Pattern
+  - A behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses.
+  - It lets one redefine certain steps of an algorithm without changing the algorithm's structure.
+  - The template method is used in frameworks, where each implements the invariant parts of a domain's architecture, leaving
+    "placeholders" for customization options.
+  - This is an example of inversion of control. The template method is used for the following reasons:
+    - Let subclasses implement varying behavior (through method overriding).
+    - Avoid duplication in the code: the general workflow structure is implemented once in the abstract class's algorithm, and necessary
+      variations are implemented in the subclasses.
+    - Control at what point(s) subclassing is allowed. As opposed to a simple polymorphic override, where the base method would be
+      entirely rewritten allowing radical change to the workflow, only the specific details of the workflow are allowed to change.
+      
+    ![template_method_uml](https://user-images.githubusercontent.com/16873263/27570929-aa38152c-5ab6-11e7-8e12-ab0187bcf558.png)
+  
