@@ -248,3 +248,15 @@ Facade     | Provides a simplified interface
       
     ![template_method_uml](https://user-images.githubusercontent.com/16873263/27570929-aa38152c-5ab6-11e7-8e12-ab0187bcf558.png)
   
+## Iteratory Design Pattern
+  - An iterator is created and used to traverse a container and access the container's elements.
+  - The iterator pattern decouples algorithms from containers; in some cases, algorithms are necessarily container-specific and thus
+    cannot be decoupled.
+  - The essence of the Iterator Pattern is to "Provide a way to access the elements of an aggregate object sequentially without exposing
+    its underlying representation."
+  - Java has the Iterator interface.
+  - As of Java 5, objects implementing the Iterable interface, which returns an Iterator from its only method, can be traversed using
+    Java's foreach loop syntax. 
+  - The Collection interface from the Java collections framework extends Iterable.
+  
+   ![iterator_uml](https://user-images.githubusercontent.com/16873263/27613619-5882f396-5b51-11e7-8d85-ccdf1b4e7e45.png)
