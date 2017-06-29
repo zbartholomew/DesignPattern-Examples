@@ -260,3 +260,27 @@ Facade     | Provides a simplified interface
   - The Collection interface from the Java collections framework extends Iterable.
   
    ![iterator_uml](https://user-images.githubusercontent.com/16873263/27613619-5882f396-5b51-11e7-8d85-ccdf1b4e7e45.png)
+   
+## Composite Design Pattern
+  - Describes a group of objects that is treated the same way as a single instance of the same type of object.
+  - The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies.
+  - Implementing the composite pattern lets clients treat individual objects and compositions uniformly.
+  - Composite should be used when clients ignore the difference between compositions of objects and individual objects.
+  - If programmers find that they are using multiple objects in the same way, and often have nearly identical code to handle each of         them, then composite is a good choice; it is less complex in this situation to treat primitives and composites as homogeneous.
+  
+    ![composite_uml](https://user-images.githubusercontent.com/16873263/27670730-b2776920-5c43-11e7-84fa-0086011d8a93.png)
+    
+    - Component
+      - is the abstraction for all components, including composite ones
+      - declares the interface for objects in the composition
+      - (optional) defines an interface for accessing a component's parent in the recursive structure, and implements it if that's
+        appropriate
+        
+    - Leaf
+      - represents leaf objects in the composition
+      - implements all Component methods
+      
+    - Composite
+      - represents a composite Component (component having children)
+      - implements methods to manipulate children
+      - implements all Component methods, generally by delegating them to its children
