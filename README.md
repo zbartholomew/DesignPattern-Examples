@@ -300,3 +300,12 @@ Facade     | Provides a simplified interface
   
   ![flyweight_design](https://user-images.githubusercontent.com/16873263/27721216-d01612d0-5d13-11e7-8303-5f4f222e7000.png)
   
+## State Design Pattern
+  - In State pattern a class behavior changes based on its state.
+    - This type of design pattern comes under behavior pattern.
+  - In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+  - The state pattern can be interpreted as a strategy pattern which is able to switch the current strategy through invocations of methods defined in the pattern's interface.
+  
+  ![state_uml](https://user-images.githubusercontent.com/16873263/27759160-fe84920c-5ddd-11e7-98a8-f8d65a969d67.png)
+  
+  
