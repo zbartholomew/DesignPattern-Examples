@@ -308,4 +308,18 @@ Facade     | Provides a simplified interface
   
   ![state_uml](https://user-images.githubusercontent.com/16873263/27759160-fe84920c-5ddd-11e7-98a8-f8d65a969d67.png)
   
+## Proxy Design Pattern
+  - A proxy, in its most general form, is a class functioning as an interface to something else.
+  - The proxy could interface to anything: a network connection, a large object in memory, a file, or some other resource that is expensive or impossible to duplicate.
+  -  In short, a proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes. 
+  - Usage:
+    - Remote Proxy
+      - In distributed object communication, a local object represents a remote object (one that belongs to a different address space). The local object is a proxy for the remote object, and method invocation on the local object results in remote method invocation on the remote object. An example would be an ATM implementation, where the ATM might hold proxy objects for bank information that exists in the remote server.
+    - Virtual Proxy
+      - In place of a complex or heavy object, a skeleton representation may be advantageous in some cases. When an underlying image is huge in size, it may be represented using a virtual proxy object, loading the real object on demand.
+    - Protection Proxy
+      - A protection proxy might be used to control access to a resource based on access rights.
+  
+  ![proxy_uml](https://user-images.githubusercontent.com/16873263/27774337-480cd71e-5f45-11e7-9b8b-bb8b88e8b1dc.png)
+  
   
