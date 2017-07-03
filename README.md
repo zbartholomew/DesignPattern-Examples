@@ -322,4 +322,12 @@ Facade     | Provides a simplified interface
   
   ![proxy_uml](https://user-images.githubusercontent.com/16873263/27774337-480cd71e-5f45-11e7-9b8b-bb8b88e8b1dc.png)
   
+## Chain of Responsibility Design Pattern
+  - A design pattern consisting of a source of command objects and a series of processing objects
+  - Each processing object contains logic that defines the types of command objects that it can handle; the rest are passed to the next processing object in the chain. 
+  - A mechanism also exists for adding new processing objects to the end of this chain.
+  - This pattern promotes the idea of loose coupling.
+  
+  ![chain_uml](https://user-images.githubusercontent.com/16873263/27777206-9f4269b6-5f65-11e7-9bf3-4b2f9053e0e3.gif)
+  
   
