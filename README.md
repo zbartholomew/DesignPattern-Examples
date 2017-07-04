@@ -330,4 +330,16 @@ Facade     | Provides a simplified interface
   
   ![chain_uml](https://user-images.githubusercontent.com/16873263/27777206-9f4269b6-5f65-11e7-9bf3-4b2f9053e0e3.gif)
   
+## Mediator Design Pattern
+  - The mediator pattern defines an object that encapsulates how a set of objects interact.
+  - With the mediator pattern, communication between objects is encapsulated within a mediator object. 
+    - Objects no longer communicate directly with each other, but instead communicate through the mediator. 
+    - This reduces the dependencies between communicating objects, thereby reducing coupling.
+  - Mediator - defines the interface for communication between Colleague objects
+  - ConcreteMediator - implements the Mediator interface and coordinates communication between Colleague objects. It is aware of all of the Colleagues and their purposes with regards to inter-communication.
+  - Colleague - defines the interface for communication with other Colleagues
+  - ConcreteColleague - implements the Colleague interface and communicates with other Colleagues through its Mediator
+  
+  ![mediator_design_pattern](https://user-images.githubusercontent.com/16873263/27815488-7cee987e-6039-11e7-8e7c-bb56f35b4d13.png)
+
   
