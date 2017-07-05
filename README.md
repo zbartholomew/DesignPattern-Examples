@@ -342,4 +342,37 @@ Facade     | Provides a simplified interface
   
   ![mediator_design_pattern](https://user-images.githubusercontent.com/16873263/27815488-7cee987e-6039-11e7-8e7c-bb56f35b4d13.png)
 
+## Memento Design Pattern
+  - Provides the ability to restore an object to its previous state (undo via rollback).
+  - The memento pattern is implemented with three objects: the originator, a caretaker and a memento.
+    - The originator is some object that has an internal state. 
+    - The caretaker is going to do something to the originator, but wants to be able to undo the change. 
+      - The caretaker first asks the originator for a memento object. 
+      - Then it does whatever operation (or sequence of operations) it was going to do. 
+      - To roll back to the state before the operations, it returns the memento object to the originator. 
+    - The memento object itself is an opaque object (one which the caretaker cannot, or should not, change). 
+  - When using this pattern, care should be taken if the originator may change other objects or resources - the memento pattern operates on a single object.
+  - Classic examples of the memento pattern include the seed of a pseudorandom number generator (it will always produce the same sequence thereafter when initialized with the seed state) and the state in a finite state machine.
   
+  
+  ![memento_uml](https://user-images.githubusercontent.com/16873263/27847385-21fe7bdc-60f2-11e7-84f0-ca9f7b75e1ea.png) 
+  
+## Visitor Design Pattern
+  - Is a way of separating an algorithm from an object structure on which it operates. 
+  - A practical result of this separation is the ability to add new operations to extant object structures without modifying the structures. 
+  - It is one way to follow the open/closed principle.
+  - In essence, the visitor allows adding new virtual functions to a family of classes, without modifying the classes. 
+  - Instead, a visitor class is created that implements all of the appropriate specializations of the virtual function. 
+  - The visitor takes the instance reference as input, and implements the goal through double dispatch.
+  - The Gang of Four defines the Visitor as:
+    - Represent an operation to be performed on elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
+  - The nature of the Visitor makes it an ideal pattern to plug into public APIs thus allowing its clients to perform operations on a class using a "visiting" class without having to modify the source.
+  - Uses: Moving operations into visitor classes is beneficial when
+    - many unrelated operations on an object structure are required,
+    - the classes that make up the object structure are known and not expected to change,
+    - new operations need to be added frequently,
+    - an algorithm involves several classes of the object structure, but it is desired to manage it in one single location,
+    - an algorithm needs to work across several independent class hierarchies.
+  - A drawback to this pattern, however, is that it makes extensions to the class hierarchy more difficult, as new classes typically require a new visit method to be added to each visitor.
+  
+  ![visitor_uml](https://user-images.githubusercontent.com/16873263/27847390-25342298-60f2-11e7-8fab-16c2251eabd3.png)
